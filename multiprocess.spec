@@ -4,7 +4,7 @@
 #
 Name     : multiprocess
 Version  : 0.70.12.2
-Release  : 2
+Release  : 3
 URL      : https://github.com/uqfoundation/multiprocess/releases/download/multiprocess-0.70.12.2/multiprocess-0.70.12.2.tar.gz
 Source0  : https://github.com/uqfoundation/multiprocess/releases/download/multiprocess-0.70.12.2/multiprocess-0.70.12.2.tar.gz
 Summary  : better multiprocessing and multithreading in python
@@ -14,12 +14,12 @@ Requires: multiprocess-license = %{version}-%{release}
 Requires: multiprocess-python = %{version}-%{release}
 Requires: multiprocess-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
 BuildRequires : pypi(dill)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 multiprocess
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638308254
+export SOURCE_DATE_EPOCH=1644188765
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
