@@ -4,7 +4,7 @@
 #
 Name     : multiprocess
 Version  : 0.70.14
-Release  : 9
+Release  : 10
 URL      : https://github.com/uqfoundation/multiprocess/releases/download/multiprocess-0.70.14/multiprocess-0.70.14.tar.gz
 Source0  : https://github.com/uqfoundation/multiprocess/releases/download/multiprocess-0.70.14/multiprocess-0.70.14.tar.gz
 Summary  : better multiprocessing and multithreading in python
